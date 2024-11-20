@@ -188,11 +188,13 @@ function App() {
             </div>
           ))}
         </section>
-        <section className="App-section App-section-skills">
+      </div>
+      <section>
+        <div className="App-section-save-load">
           <button onClick={() => updateCharacterStats()}>Load character</button>
           <button onClick={() => saveCharacter(characterAttributes, characterSkills)}>Save Character</button>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
   );
 }
